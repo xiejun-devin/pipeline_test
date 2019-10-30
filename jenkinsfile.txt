@@ -1,18 +1,18 @@
-node {  
-    stage('æž„å»º') { 
+node £¨£© {  
+    stage('¹¹½¨') { 
         // cc
         echo "build"
     }
-    stage('æµ‹è¯• ') { 
+    stage('²âÊÔ ') { 
         // cc
         echo "test"
-     bat "robot -P. tc"      
+     bat "robot -P . tc"      
     }
-    stage('éƒ¨ç½² ') { 
+    stage('²¿Êð ') { 
         // hh
         echo "deploy"
     }
-    stage('éªŒæ”¶ '){
+    stage('½»¸¶ '){
         //
         echo "test"
     }
