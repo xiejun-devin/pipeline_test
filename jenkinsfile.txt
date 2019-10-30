@@ -1,4 +1,4 @@
-node £¨£© {  
+node (){  
     stage('¹¹½¨') { 
         // cc
         echo "build"
